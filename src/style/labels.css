@@ -1,0 +1,10 @@
+.label {
+  color: white;
+  padding: 9px;
+}
+
+.first {background-color: #04AA6D;}
+.second {background-color: #2196F3;}
+.third {background-color: #ff9800;}
+.fourth {background-color: #f44336;}
+.fifth {background-color: #e7e7e7; color: black;}

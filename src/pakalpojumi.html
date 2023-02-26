@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>SIA "ZXC" - Datoru remonts</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/pakalpojumi-additional.css">
+</head>
+<body>
+
+<nav class="w3-bar w3-black">
+    <a href="index.html" class="w3-button w3-bar-item"><i class="fa fa-fw fa-home"></i> Sākums</a>
+    <a href="pakalpojumi.html" class="w3-button w3-bar-item"><i class="fa fa-fw fa-search"></i>Pakalpojumi</a>
+    <a href="cenas.html" class="w3-button w3-bar-item"><i class="fa fa-fw fa-money"></i>Cenas</a>
+    <a href="kontakti.html" class="w3-button w3-bar-item"><i class="fa fa-fw fa-envelope"></i>Kontakti</a>
+</nav>
+
+<!-- Content "Reklāmas attēls" -->
+<div class="container">
+    <img src="img/img-7.jpg" alt="RepairWork" style="width:100%;">
+    <div class="text-block">
+        <button class="btn"><span><a href="kontakti.html">Kvalitatīva apkalpošana par pieejamam cenām</a></span></button>
+    </div>
+</div>
+
+<!-- Content "Pakalpojumi" -->
+<h1>Uzņēmuma "ZXC" pakalpojumi</h1>
+    <br>
+    <div>
+        <h3>Mēs piedāvājam plašu ar biroja tehniku saistītu pakalpojumu klāstu:</h3>
+        <ul>
+            <li>Printeru, skeneru, ploteru, faksu, multifunkcionālo iekārtu un citas biroja tehnikas diagnostika un remonts;</li>
+            <li>Profilaktiskā apkalpošana;</li>
+            <li>Lāzerprinteru kārtridžu uzpilde;</li>
+            <li>Jaunas tehnikas uzstādīšana un pamatiestatīšana,</li>
+        </ul>
+        <br><br>
+        <h3>Mēs piedāvājam arī datortehnikas tehnisko apkalpošanu:</h3>
+        <ul>
+            <li>Datoru diagnostika un remonts;</li>
+            <li>Portatīvo un stacionāro datoru pilna vai profilaktiska tīrīšana;</li>
+            <li>Datorkomponentu modernizācija (RAM apjoma palielināšana, cieto disku, SSD, videokaršu utt. maiņa vai pievienošana);</li>
+            <li>Stacionāro vai portatīvo datoru modernizācija ar SSD disku (saglabājot operētājsistēmu un visus datus);</li>
+            <li>Datoru ārstēšana no vīrusiem;</li>
+            <li>Visu veidu operētājsistēmu un programmu uzstādīšana;</li>
+            <li>Tīkla produktu uzstādīšana un iestatīšana – WiFi rūteri, repīteri, piekļuves punkti utt.</li>
+        </ul>
+        <br><br>
+        <h2>Radās problēma, bet nezināt, ko darīt tālāk?</h2>
+        <br>
+        <h3>Zvaniet mums un mēs sniegsim Jums konsultāciju, kā arī nepieciešamības gadījumā
+            atrisināsim Jūsu problēmu visīsākajos termiņos!</h3>
+    </div>
+
+<!-- Slide Show-->
+<section>
+    <img class="mySlides" src="img/img-4.jpeg" style="width:100%">
+    <img class="mySlides" src="img/img-5.jpg" style="width:100%">
+    <img class="mySlides" src="img/img-6.jpg" style="width:100%">
+</section>
+
+<script>
+// Script Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-flickr"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <p class="w3-medium">
+        Web Lapas izstrādātajs SIA "ZXC" Galvenais tehnniķis D. Ginzburg</a>
+    </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>SIA "ZXC" - Datoru remonts</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/stars.css">
+    <link rel="stylesheet" href="style/labels.css">
+</head>
+<body>
+
+<nav class="w3-bar w3-black">
+    <a href="index.html" class="w3-button w3-bar-item"><i class="fa fa-fw fa-home"></i> Sākums</a>
+    <a href="pakalpojumi.html" class="w3-button w3-bar-item"><i class="fa fa-fw fa-search"></i>Pakalpojumi</a>
+    <a href="cenas.html" class="w3-button w3-bar-item"><i class="fa fa-fw fa-money"></i>Cenas</a>
+    <a href="kontakti.html" class="w3-button w3-bar-item"><i class="fa fa-fw fa-envelope"></i>Kontakti</a>
+</nav>
+
+<!-- Slide Show-->
+<section>
+    <img class="mySlides" src="img/img-1.jpeg" style="width:100%">
+    <img class="mySlides" src="img/img-2.jpg" style="width:100%">
+    <img class="mySlides" src="img/img-3.jpg" style="width:100%">
+</section>
+
+<script>
+// Script Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+    <p class="w3-justify">
+<h1>Ātri! Droši! Lēti! Garantija!</h1>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+</section>
+
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+    <p class="w3-justify">
+        Mēs esam jauns uzņēmums, kas nodrošina elektronisko iekārtu remontu,
+        nodrošinot kvalitatīvu servisu par saprātīgu cenu.</section>
+
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+    <p class="w3-justify">
+        Katram SIA "ZXC" klientam datora, planšetdatora, televizora vai telefona diagnostika ir bez maksas*,
+        ja ierices remonts tiek veikts mūsu servisā. Piedāvājumā ietilpst ierīces galveno komponentu un
+        mikroprocesoru temperatūras pārbaude, slodzes testēšana un citi diagnostikas darbi.</section>
+
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+    <p class="w3-justify">
+    <h1>Mūsu darbs - mūsu lepnums</h1>
+    <span class="label first">Mūsdienīgs aprīkojums un plaša rezerves daļu izvēle uz vietas.</span><br><br>
+    <span class="label second">Meistari ar pieredzi un atbilstošu izglītību. Visu procesu caurspīdība.</span><br><br>
+    <span class="label third">Tikai vadošie un pārbaudīti rezerves daļu ražotāji.</span><br><br>
+    <span class="label fourth">Rezerves daļas tikai no ražotājiem. Konkurēnspējīgas cenas.</span><br><br>
+    <span class="label fifth">Garantija paveiktam darbam. Kvalitātes kontrole.</span><br><br>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-flickr"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <p class="w3-medium">
+        Web Lapas izstrādātajs SIA "ZXC" Galvenais tehnniķis D. Ginzburg</a>
+    </p>
+</footer>
+
+</body>
+</html>
